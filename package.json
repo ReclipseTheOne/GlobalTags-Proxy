@@ -1,7 +1,7 @@
 {
-  "name": "ollama-proxy",
+  "name": "globaltags-proxy",
   "version": "1.0.0",
-  "description": "A basic proxy server for Ollama to bypass CORS",
+  "description": "A basic proxy server for GlobalTags (also bundles Ollama) to bypass CORS",
   "main": "proxy.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,7 +12,7 @@
   "packageManager": "pnpm@10.6.2",
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.21.2",
+    "express": "^5.0.1",
     "http-proxy-middleware": "^3.0.3"
   }
 }
